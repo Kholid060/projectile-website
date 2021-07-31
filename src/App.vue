@@ -1,22 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <app-nav class="mb-6 bg-gray-900 mt-8 md:mt-12 lg:mt-20"></app-nav>
+  <section class="container">
+    <h1 class="text-4xl mb-12 font-semibold">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia alias
+      dolore dolor, pariatur animi est minima officiis neque in! Eos dolore
+      nulla, voluptas quidem mollitia assumenda! Voluptatum nisi recusandae
+      ipsam.
+    </h1>
+    <button>Download</button>
+    <img
+      :src="image1"
+      class="rounded-md border border-gray-800 shadow-2xl mx-auto"
+    />
+  </section>
 </template>
+<script>
+import AppNav from './components/app/AppNav.vue';
+import image1 from './assets/images/image1.png';
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md
+export default {
+  components: { AppNav },
+  setup() {
+    return {
+      image1,
+    };
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

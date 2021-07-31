@@ -72,6 +72,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
+"@mdi/js@^5.9.55":
+  version "5.9.55"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-5.9.55.tgz#8f5bc4d924c23f30dab20545ddc768e778bbc882"
+  integrity sha512-BbeHMgeK2/vjdJIRnx12wvQ6s8xAYfvMmEAVsUx9b+7GiQGQ9Za8jpwp17dMKr9CgKRvemlAM4S7S3QOtEbp4A==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -1674,6 +1679,13 @@ postcss-nested@5.0.5:
   dependencies:
     postcss-selector-parser "^6.0.4"
 
+postcss-nested@^5.0.6:
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-5.0.6.tgz#466343f7fc8d3d46af3e7dba3fcd47d052a945bc"
+  integrity sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==
+  dependencies:
+    postcss-selector-parser "^6.0.6"
+
 postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.6:
   version "6.0.6"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.6.tgz#2c5bba8174ac2f6981ab631a42ab0ee54af332ea"
@@ -2141,10 +2153,10 @@ vue-eslint-parser@^7.10.0:
     lodash "^4.17.21"
     semver "^6.3.0"
 
-vue-mdijs@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/vue-mdijs/-/vue-mdijs-0.4.3.tgz#a0f6c742ad30165e31b5e87e3f540add96dbd371"
-  integrity sha512-Y4SV/UOOwxMc00zNAzxfOkVcJaggc2/hzDDp/QAcbJ8nGSANTVFIg/Wm9LZ10Ne42ajEdpMw79IL+lGYGS5d+g==
+vue-mdijs@^0.5.12:
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/vue-mdijs/-/vue-mdijs-0.5.12.tgz#1ed495e61515bb5b536357002d378c4cee1c05f7"
+  integrity sha512-q8HmpeEN9+EE/GjgKAVfJtw9xNMcdFbnNeIBC/8IcMeS4MB5qJCY0imSGer+2xZMBYL787bCsz7kAoiMgzkHww==
 
 vue-router@^4.0.10:
   version "4.0.10"

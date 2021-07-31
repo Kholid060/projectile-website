@@ -1,0 +1,14 @@
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: theme('colors.gray.900');
+}
+
+[role="button"],
+input,
+textarea,
+button,
+select {
+  @apply focus:outline-none focus:ring-4;
+}
