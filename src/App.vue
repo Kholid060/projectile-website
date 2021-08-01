@@ -6,6 +6,7 @@
       tag="a"
       :href="repository + '/releases'"
       target="_blank"
+      rel="noreferrer noopener"
       size="large"
       variant="primary"
       class="inline-block"

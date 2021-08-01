@@ -5,7 +5,9 @@
         :src="logoSvg"
         alt="Projectile Logo"
         title="Projectile Logo"
-        class="w-6 mr-4"
+        class="mr-4"
+        width="24"
+        height="60"
       />
       <h3 class="text-xl">Projectile</h3>
     </div>
@@ -18,6 +20,7 @@
       <ui-button
         tag="a"
         :href="repository + '/releases'"
+        rel="noreferrer noopener"
         target="_blank"
         variant="primary"
         size="large"
@@ -29,6 +32,7 @@
       <ui-button
         tag="a"
         :href="repository"
+        rel="noreferrer noopener"
         target="_blank"
         class="inline-block"
         size="large"
@@ -40,7 +44,9 @@
     <img
       :src="packageScreenshot"
       alt="packages screenshot"
-      class="rounded-lg mt-32 ring-8 ring-gray-800 shadow-2xl mx-auto"
+      width="600"
+      height="400"
+      class="rounded-lg mt-32 ring-8 ring-gray-800 shadow-2xl mx-auto w-full"
     />
   </section>
 </template>
