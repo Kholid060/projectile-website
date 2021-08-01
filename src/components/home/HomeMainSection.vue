@@ -9,7 +9,9 @@
       />
       <h3 class="text-xl">Projectile</h3>
     </div>
-    <h1 class="text-4xl md:text-5xl mb-12 font-semibold leading-tight w-10/12">
+    <h1
+      class="text-4xl md:text-5xl mb-12 font-semibold md:leading-normal w-10/12"
+    >
       An app that will help you to manage your JavaScript projects.
     </h1>
     <div class="space-x-2 md:space-x-4 lg:space-x-6 flex">
