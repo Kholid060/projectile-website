@@ -6,6 +6,5 @@ import './assets/css/tailwind.css';
 import './assets/css/style.css';
 
 export const createApp = ViteSSG(App, ({ app }) => {
-  console.log(app);
   app.use(compsUi).use(vueMdijs);
 });
