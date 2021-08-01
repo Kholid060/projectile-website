@@ -1,6 +1,6 @@
 <template>
   <section class="container mt-8 md:mt-12 lg:mt-20">
-    <div class="flex items-center mb-20">
+    <div class="flex items-center mb-12 md:mb-20">
       <img
         :src="logoSvg"
         alt="Projectile Logo"
@@ -9,10 +9,10 @@
       />
       <h3 class="text-xl">Projectile</h3>
     </div>
-    <h1 class="text-5xl mb-12 font-semibold leading-tight w-10/12">
+    <h1 class="text-4xl md:text-5xl mb-12 font-semibold leading-tight w-10/12">
       An app that will help you to manage your JavaScript projects.
     </h1>
-    <div class="space-x-6">
+    <div class="space-x-2 md:space-x-4 lg:space-x-6 flex">
       <ui-button
         tag="a"
         :href="repository + '/releases'"

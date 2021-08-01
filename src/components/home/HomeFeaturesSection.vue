@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <h2 class="text-2xl font-semibold mb-8">Features</h2>
-    <div class="grid grid-cols-3 center gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 center gap-4">
       <div
         v-for="feature in features"
         :key="feature.name"
