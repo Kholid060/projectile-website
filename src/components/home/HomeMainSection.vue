@@ -1,0 +1,35 @@
+<template>
+  <section class="container mt-8 md:mt-12 lg:mt-20">
+    <div class="flex items-center mb-20">
+      <img
+        :src="logoSvg"
+        alt="Projectile Logo"
+        title="Projectile Logo"
+        class="w-6 mr-4"
+      />
+      <h3 class="text-xl">Projectile</h3>
+    </div>
+    <h1 class="text-5xl mb-12 font-semibold leading-tight w-10/12">
+      An app that will help you to manage your JS projects.
+    </h1>
+    <div class="space-x-6">
+      <ui-button variant="primary" size="large">
+        <v-mdi name="mdi-tray-arrow-down" class="-ml-1 mr-2" />
+        <span>Download</span>
+      </ui-button>
+      <ui-button size="large">
+        <v-mdi name="mdi-github" class="-ml-1 mr-2" />
+        <span>GitHub</span>
+      </ui-button>
+    </div>
+    <img
+      :src="packageScreenshot"
+      alt="packages screenshot"
+      class="rounded-md mt-32 ring-8 ring-gray-800 shadow-2xl mx-auto"
+    />
+  </section>
+</template>
+<script setup>
+import packageScreenshot from '@/assets/images/packages-screenshot.png';
+import logoSvg from '@/assets/svg/logo.svg';
+</script>
