@@ -5,7 +5,7 @@
     class="ui-button relative transition"
     :class="[
       color ? color : variants[variant],
-      icon ? 'p-2' : 'py-2 px-4',
+      icon ? 'p-2' : sizes[size],
       circle ? 'rounded-full' : 'rounded-lg',
       { 'opacity-70': disabled, 'pointer-events-none': loading || disabled },
     ]"
@@ -46,8 +46,17 @@ export default {
       type: String,
       default: 'default',
     },
+    size: {
+      type: String,
+      default: 'medium',
+      validator: (val) => ['medium', 'large'].includes(val),
+    },
   },
   setup() {
+    const sizes = {
+      medium: 'px-4 py-2',
+      large: 'px-6 py-3',
+    };
     const variants = {
       default: 'bg-gray-100 bg-opacity-5 hover:bg-opacity-10',
       primary: 'bg-primary text-white hover:bg-blue-600',
@@ -55,6 +64,7 @@ export default {
     };
 
     return {
+      sizes,
       variants,
     };
   },

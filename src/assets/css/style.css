@@ -10,5 +10,5 @@ input,
 textarea,
 button,
 select {
-  @apply focus:outline-none focus:ring-4;
+  @apply focus:outline-none focus:ring-2;
 }
